@@ -14,7 +14,8 @@
 
 #NEOVIM :)
 !nvim/
-!nvim/.config/nvim/**
+!nvim/**
+!nvim/.config/**
 
 #normal vim why not
 !vim/
