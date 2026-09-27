@@ -1,0 +1,25 @@
+#### whitelist!
+*
+!.gitignore
+!.git/
+!.git/**
+
+#zsh
+!zsh/
+!zsh/**
+
+#tmux
+!tmux/
+!tmux/**
+
+#NEOVIM :)
+!.config/nvim/**
+
+#ghostty (tbd)
+
+#hypr...
+
+# scripts???
+
+
+!*.md
