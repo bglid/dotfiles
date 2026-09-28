@@ -10,7 +10,7 @@
 
 #tmux
 !tmux/
-!tmux/**
+!tmux/.tmux.conf
 
 #NEOVIM :)
 !nvim/
