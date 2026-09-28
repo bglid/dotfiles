@@ -1,8 +1,8 @@
 #### whitelist!
 *
 !.gitignore
-!.git/
-!.git/**
+!git/
+!git/**
 
 #zsh
 !zsh/
