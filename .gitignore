@@ -26,6 +26,8 @@
 #hypr...
 
 # scripts???
+!scripts/
+!scripts/**
 
 # md files README mostly
 !*.md
