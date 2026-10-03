@@ -106,30 +106,30 @@ return {
 		opts = {},
 	},
 
-	{ -- devdocs
-		"luckasRanarison/nvim-devdocs",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"nvim-telescope/telescope.nvim",
-			"nvim-treesitter/nvim-treesitter",
-		},
-		config = function()
-			require("nvim-devdocs").setup({})
-			vim.keymap.set(
-				"n",
-				"<leader>nd",
-				"<cmd>DevdocsOpen<CR>",
-				{ noremap = true, desc = "open dev-docs", silent = true }
-			)
-			vim.keymap.set(
-				"n",
-				"<leader>nD",
-				"<cmd>DevdocsOpenCurrentFloat<CR>",
-				{ noremap = true, desc = "Dev-docs for current in float window", silent = true }
-			)
-		end,
-		opts = {},
-	},
+	-- { -- devdocs
+	-- 	"luckasRanarison/nvim-devdocs",
+	-- 	dependencies = {
+	-- 		"nvim-lua/plenary.nvim",
+	-- 		"nvim-telescope/telescope.nvim",
+	-- 		"nvim-treesitter/nvim-treesitter",
+	-- 	},
+	-- 	config = function()
+	-- 		require("nvim-devdocs").setup({})
+	-- 		vim.keymap.set(
+	-- 			"n",
+	-- 			"<leader>nd",
+	-- 			"<cmd>DevdocsOpen<CR>",
+	-- 			{ noremap = true, desc = "open dev-docs", silent = true }
+	-- 		)
+	-- 		vim.keymap.set(
+	-- 			"n",
+	-- 			"<leader>nD",
+	-- 			"<cmd>DevdocsOpenCurrentFloat<CR>",
+	-- 			{ noremap = true, desc = "Dev-docs for current in float window", silent = true }
+	-- 		)
+	-- 	end,
+	-- 	opts = {},
+	-- },
 
 	{ -- Docstring generator
 		"danymat/neogen",
